@@ -1,0 +1,80 @@
+{
+  "projectName": "SILCAMPUSGH",
+  "routingHandler": "node",
+  "designFramework": "bootstrap5",
+  "hostingType": "wappler",
+  "projectServerModel": "node",
+  "useRouting": true,
+  "addBase": true,
+  "styleFile": "/assets/css/style.css",
+  "assetsFolder": "/assets",
+  "webRootFolder": "/public",
+  "targets": [
+    {
+      "name": "Development",
+      "remoteURL": "http://localhost:3000/",
+      "access": "local",
+      "targetType": "wappler"
+    },
+    {
+      "name": "silcampus_server",
+      "remoteURL": "http://137.184.59.16/",
+      "usage": "production",
+      "webLoggingMaxFiles": "5",
+      "webLoggingMaxFileSize": "10m",
+      "databaseLoggingMaxFiles": "5",
+      "databaseLoggingMaxFileSize": "10m",
+      "targetType": "docker",
+      "dockerType": "remote",
+      "dockerTimezone": "Etc/UTC",
+      "dockerUseTLS": true,
+      "webServer": "node",
+      "webServerLang": "node",
+      "NodeVersion": "16",
+      "NodeOS": "bullseye",
+      "NodeImageType": "slim",
+      "databaseType": "mysql",
+      "mySQLVersion": "8.0.x",
+      "dockerHost": "137.184.59.16",
+      "dockerPort": 2376,
+      "dockerCertFolder": "~/.docker/machine/machines/silcampus",
+      "webServerPort": 80,
+      "databasePort": 9906,
+      "mySQL_rootPassword": "VYyXZ9s2",
+      "mySQL_databaseName": "silcampusgh",
+      "mySQL_username": "db_user",
+      "mySQL_password": "9cAC5L0u",
+      "dockerMachineName": "silcampus",
+      "dockerProjectName": "silcampus2__silcampus_server"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "appConnect",
+      "type": "local"
+    },
+    {
+      "name": "bootstrap5",
+      "type": "local"
+    },
+    {
+      "name": "fontawesome_4",
+      "type": "local"
+    },
+    {
+      "name": "bootstrap_icons",
+      "type": "local"
+    },
+    {
+      "name": "moment_2",
+      "type": "local"
+    },
+    {
+      "name": "jquery_slim_35",
+      "type": "local"
+    }
+  ],
+  "projectLinksType": "site",
+  "activeTarget": "silcampus_server",
+  "extensions": []
+}

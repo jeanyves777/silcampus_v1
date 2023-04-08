@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "page": "index",
+      "layout": "main"
+    },
+    {
+      "path": "/about",
+      "page": "about",
+      "layout": "main"
+    },
+    {
+      "path": "/events",
+      "page": "events",
+      "layout": "main"
+    },
+    {
+      "path": "/gallery",
+      "page": "gallery",
+      "layout": "main"
+    },
+    {
+      "path": "/test",
+      "page": "test",
+      "layout": "main"
+    }
+  ]
+}

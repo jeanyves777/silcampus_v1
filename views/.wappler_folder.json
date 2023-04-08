@@ -1,0 +1,61 @@
+{
+  "index.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "English.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "German.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "French.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "Spanish.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "Business_English.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "Bilingual_Secretarial.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "Translation_Interpretation.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "TOEFL.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "about.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "events.ejs": {
+    "layoutPage": "main"
+  },
+  "gallery.ejs": {
+    "layoutPage": "main"
+  },
+  "courses.ejs": {
+    "layoutPage": "main"
+  },
+  "contacts.ejs": {
+    "layoutPage": "main"
+  },
+  "english.ejs": {
+    "layoutPage": "main"
+  },
+  "test.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  }
+}

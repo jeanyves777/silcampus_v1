@@ -1,0 +1,11 @@
+{
+  "direct": true,
+  "type": "mysql",
+  "connection": {
+    "host": "137.184.59.16",
+    "port": 9906,
+    "user": "db_user",
+    "password": "9cAC5L0u",
+    "database": "silcampusgh"
+  }
+}
